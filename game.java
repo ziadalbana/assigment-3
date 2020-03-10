@@ -3,7 +3,7 @@ import java.awt.Point;
 public class game implements IPlayerFinder {
     static int  xmin=0,xmax=50,ymin=0,ymax=50,counter=0;
     private Boolean[][] visited;
-     Point[] position = new Point[100];
+     Point[] position = new Point[500];
     public void setVisited(Boolean[][] visited) {
         this.visited = visited;
     }
